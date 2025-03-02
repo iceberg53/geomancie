@@ -3,18 +3,20 @@
   "version": "2.3.0",
   "type": "module",
   "description": "Starter kit for modern web applications",
-  "homepage": "https://react-pwa.surenatoyan.com/",
+  "homepage": "https://iceberg53.github.io/geomancie",
   "repository": {
     "type": "git",
-    "url": "https://github.com/suren-atoyan/react-pwa.git"
+    "url": "https://github.com/iceberg53/geomancie"
   },
   "bugs": {
-    "url": "https://github.com/suren-atoyan/react-pwa/issues",
-    "email": "contact@surenatoyan.com"
+    "url": "https://github.com/iceberg53/geomancieissues",
+    "email": "chabi2353@gmail.com"
   },
   "license": "MIT",
   "scripts": {
     "dev": "vite",
+	"predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "build": "tsc && vite build",
     "preview": "vite preview",
     "https-preview": "serve dist",
@@ -59,6 +61,7 @@
     "eslint": "^8.55.0",
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0",
+    "gh-pages": "^6.3.0",
     "https-localhost": "^4.7.1",
     "husky": "^8.0.3",
     "lint-staged": "^15.2.0",
