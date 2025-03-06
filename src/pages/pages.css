@@ -33,6 +33,7 @@
 .searchResultCard{
 	margin-top: 0.5rem;
 	margin-bottom: 0.5rem;
+	padding : 1rem;
 }
 
 .html-book{background-size:cover; }

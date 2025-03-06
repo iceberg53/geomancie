@@ -1,8 +1,8 @@
-import AddTaskIcon from '@mui/icons-material/AddTask';
-import BugReportIcon from '@mui/icons-material/BugReport';
-import GitHubIcon from '@mui/icons-material/GitHub';
+import BookIcon from '@mui/icons-material/Book';
+import SearchIcon from '@mui/icons-material/Search';
+import HelpIcon from '@mui/icons-material/Help';
 import HomeIcon from '@mui/icons-material/Home';
-import TerrainIcon from '@mui/icons-material/Terrain';
+import InfoIcon from '@mui/icons-material/Info';
 
 import asyncComponentLoader from '@/utils/loader';
 
@@ -18,26 +18,26 @@ const routes: Routes = {
   [Pages.Page1]: {
     component: asyncComponentLoader(() => import('@/pages/Page1')),
     path: '/page-1',
-    title: 'Signes',
-    icon: GitHubIcon,
+    title: 'Livre',
+    icon: BookIcon,
   },
   [Pages.Page2]: {
     component: asyncComponentLoader(() => import('@/pages/Page2')),
     path: '/page-2',
-    title: 'Maisons',
-    icon: AddTaskIcon,
+    title: 'Recherche',
+    icon: SearchIcon,
   },
   [Pages.Page3]: {
     component: asyncComponentLoader(() => import('@/pages/Page3')),
     path: '/page-3',
-    title: 'Effets et Influences',
-    icon: TerrainIcon,
+    title: 'Aide',
+    icon: HelpIcon,
   },
   [Pages.Page4]: {
     component: asyncComponentLoader(() => import('@/pages/Page4')),
     path: '/page-4',
     title: 'A Propos',
-    icon: BugReportIcon,
+    icon: InfoIcon,
   },
   [Pages.NotFound]: {
     component: asyncComponentLoader(() => import('@/pages/NotFound')),

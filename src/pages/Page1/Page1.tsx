@@ -293,9 +293,9 @@ function Page1() {
 							return (
 								<Paper className="page"  key={index}>
 									<div className="page-content">
-										<div className="page-text">{parse(pageData.content)}</div>
-										<Divider />
 										<div className="page-footer">{pageData.page_number}</div>
+										<Divider />
+										<div className="page-text">{parse(pageData.content)}</div>
 									</div>				
 								</Paper>
 							)
