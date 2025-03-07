@@ -3,13 +3,13 @@
   "version": "2.3.0",
   "type": "module",
   "description": "Starter kit for modern web applications",
-  "homepage": "https://geomancie.github.io",
+  "homepage": "https://iceberg53.github.io/geomancie",
   "repository": {
     "type": "git",
-    "url": "https://github.com/iceberg53/geomancie.github.io"
+    "url": "https://github.com/iceberg53/geomancie"
   },
   "bugs": {
-    "url": "https://github.com/iceberg53/geomancie.github.io/issues",
+    "url": "https://github.com/iceberg53/geomancie/issues",
     "email": "chabi2353@gmail.com"
   },
   "license": "MIT",
