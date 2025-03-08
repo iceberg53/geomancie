@@ -78,8 +78,8 @@ function Page1() {
 			swipeDistance={30}
 			clickEventForward={true}
 			useMouseEvents={true}
-			disableFlipByClick={false}
-			showPageCorners={true}
+			disableFlipByClick={true}
+			showPageCorners={false}
 			style={myStyle}
 			className="html-book"
             >
