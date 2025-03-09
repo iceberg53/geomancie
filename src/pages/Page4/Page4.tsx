@@ -6,22 +6,14 @@ import Typography from '@mui/material/Typography';
 import Meta from '@/components/Meta';
 import { FullSizeCenteredFlexBox } from '@/components/styled';
 
+import "../pages.css";
+
 function Page4() {
   return (
     <>
       <Meta title="page 4" />
       <FullSizeCenteredFlexBox flexDirection="column">
-        <Typography variant="h3">Page 4</Typography>
-        <Button
-          to={`/${Math.random().toString()}`}
-          component={Link}
-          variant="outlined"
-          sx={{ mt: 4 }}
-          size="small"
-          color="warning"
-        >
-          Whant to check 404?
-        </Button>
+        <Typography className="welcome" variant="h3">A PROPOS DE CETTE APPLICATION</Typography>
       </FullSizeCenteredFlexBox>
     </>
   );

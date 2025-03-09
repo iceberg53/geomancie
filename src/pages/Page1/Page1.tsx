@@ -85,7 +85,7 @@ function Page1() {
             >
 			<Paper className="page page-cover page-cover-top" data-density="hard">
 				<div className="page-content">
-					<Typography variant="h2">TITLE</Typography>
+					<Typography variant="h2">TITRE DEUXIEME : LA CONSULTATION GEOMANCIQUE</Typography>
 				</div>
 			</Paper>
 			
@@ -93,7 +93,7 @@ function Page1() {
 			
 			<Paper className="page page-cover page-cover-bottom" data-density="hard">
 				<div className="page-content">
-					<Typography variant="h2">THE END</Typography>
+					<Typography variant="h2">FIN</Typography>
 				</div>
 			</Paper>
 			

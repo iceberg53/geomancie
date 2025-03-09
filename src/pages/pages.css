@@ -1,4 +1,25 @@
-.welcome{margin-right: 1rem;}
+.welcome{text-align: center; margin: 1rem;}
+
+.welcomeMenu{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	margin: 1rem;
+}
+
+.welcomeItem{
+	margin: 0.5rem;
+	text-decoration: none;
+	width: 45%;
+	height: 45%;
+}
+
+.welcomeItemCard{
+	padding: 1rem;
+	
+}
 
 .book-wrapper{
 	padding : 1rem 0;
