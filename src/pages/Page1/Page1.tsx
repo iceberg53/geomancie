@@ -75,7 +75,7 @@ function Page1() {
 			startZIndex={0}
 			startPage={startPage}
 			autoSize={true}
-			swipeDistance={30}
+			swipeDistance={100}
 			clickEventForward={true}
 			useMouseEvents={true}
 			disableFlipByClick={true}

@@ -1,0 +1,8 @@
+[{
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "app.netlify.geomancie.twa",
+        "sha256_cert_fingerprints": ["ED:2A:8A:8E:03:FD:CB:D4:3B:6E:03:4E:85:48:53:D5:9D:74:8E:8D:5A:3A:AA:A7:EB:C0:05:C0:E8:26:B0:6D"]
+      }
+    }]
