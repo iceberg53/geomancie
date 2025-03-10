@@ -81,14 +81,13 @@
     ]
   },
   "author": {
-    "name": "Suren Atoyan",
-    "email": "contact@surenatoyan.com",
-    "url": "http://surenatoyan.com/"
+    "name": "Aiman CHABI",
+    "email": "contact@freetiers.com",
+    "url": "http://freetiers.com/"
   },
   "keywords": [
     "react",
     "pwa",
-    "starter-kit",
     "vite"
   ]
 }
