@@ -19,8 +19,8 @@ function Page1() {
   let startPage: number = 0;
   
   if(state){
-	  startPage = state.result.id as number;
-	  //console.log("State from page 2", state.result.id)
+	  startPage = state.id as number + 1;
+	  console.log("State from page 2", state)
   }
   
   //console.log("State from page 2", state.result.page_number)
